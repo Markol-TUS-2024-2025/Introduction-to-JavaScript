@@ -1,119 +1,153 @@
 # JavaScript Basics
-An introduction to the core concepts of JavaScript programming including variables, operators, operands and the JavaScript syntax.
-
-
-## Introduction to JavaScript
+An introduction to the core concepts of JavaScript programming.
 This tutorial will introduce you to the essential building blocks of JavaScript: variables, data types, operators, conditionals, and loops.
 
 ## JavaScript Fundamentals
-### Variables
+### 1. Variables
 Variables store data that we can use and manipulate in JavaScript. We'll focus on **let** and **const**:
 • **let**: Use this when the variable's value may change.
 • **const**: Use this for values that shouldn't change.
 
-#### Code Example:
+**Code Example**:
 ~~~
 let age = 25; // Variable that can change
 const name = "Alice"; // Constant that will stay the same
 ~~~
-Exercise: Declare a variable called colour using let, set it to any colour, then log it to
-the console. Try changing colour and logging it again to see how it works with let.
-2. Data Types
+**Exercise**: Declare a variable called colour using let, set it to any colour, then log it to the console. Try changing colour and logging it again to see how it works with let.
+
+### 2. Data Types
 JavaScript has several data types:
-• String: Text, e.g., "hello"
-• Number: Numerical values, e.g., 42
-• Boolean: true or false
-• Null: Intentional empty value
-• Undefined: Variable that has been declared but not assigned
-• Object: Complex structures for data
-Example:
+• _String_: Text, e.g., "hello"
+• _Number_: Numerical values, e.g., 42
+• _Boolean_: true or false
+• _Null_: Intentional empty value
+• _Undefined_: Variable that has been declared but not assigned
+• _Array_: A collection of variables
+• _Object_: Complex structures for data
+
+**Example**:
+~~~
 let message = "Hello World"; // String
 let age = 30; // Number
 let isStudent = true; // Boolean
 let empty = null; // Null
 let unknown; // Undefined
-Exercise: Create a variable of each type, log each to the console, and observe the results.
-3. Operators
+let myArray = [7, "Hello", false];  //Array
+let myObject = {name: "Mark", course: "Web Dev"};
+~~~
+
+**Exercise**: Create a variable of each type, log each to the console, and observe the results.
+
+### 3. Operators
 Operators help you perform actions on variables and values:
 • Arithmetic Operators: +, -, *, /, % (remainder)
 • Assignment Operators: =, +=, -=
 • Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
 • Logical Operators: && (and), || (or), ! (not)
-Example:
+
+**Example**:
+~~~
 let a = 10;
 let b = 5;
 let sum = a + b; // 15
 console.log(sum);
 console.log(a > b); // true
-Exercise: Create a few variables and try different operators with them, then log the
-results.
-Conditionals and Loops
-4. Conditionals: if/else and switch
+~~~
+
+**Exercise**: Create a few variables and try different operators with them, then log the results.
+
+### 4. Conditionals and Loops
 if/else Statement: Executes code based on whether a condition is true or false.
-Example:
+
+**Example**:
+~~~
 let temperature = 30;
 if (temperature > 25) {
-console.log("It's hot outside!");
+    console.log("It's hot outside!");
 } else {
-console.log("It's cool outside!");
+    console.log("It's cool outside!");
 }
-switch Statement: Useful when there are multiple specific values to check.
-Example:
+~~~
+
+**Switch Statement**: Useful when there are multiple specific values to check.
+
+**Example**:
+~~~
 let fruit = "apple";
 switch (fruit) {
-case "apple":
-console.log("It's an apple!");
+    case "apple":
+    console.log("It's an apple!");
 break;
 case "banana":
-console.log("It's a banana!");
+    console.log("It's a banana!");
 break;
 default:
-console.log("Unknown fruit");
+    console.log("Unknown fruit");
 }
-Exercise: Create a temperature variable and use if/else to log a message based on
-different temperature ranges. Try a switch statement with different fruits.
-5. Loops: for and while
-for Loop: Useful when you know how many times you need to repeat a task.
-Example:
+~~~
+
+**Exercise**: Create a temperature variable and use if/else to log a message based on different temperature ranges. 
+Try a switch statement with different fruits.
+
+### 5. Loops: for and while
+**for** Loop: Useful when you know how many times you need to repeat a task.
+
+**Example**:
+~~~
 for (let i = 1; i <= 5; i++) {
-console.log("Number:", i);
+    console.log("Number:", i);
 }
-while Loop: Keeps looping as long as a condition is true. Use it when you’re unsure of the
-number of iterations.
-Example:
+~~~
+
+**while Loop**: Keeps looping as long as a condition is true. Use it when you’re unsure of the number of iterations.
+
+**Example**:
+~~~
 let i = 1;
 while (i <= 5) {
-console.log("Count:", i);
-i++;
+    console.log("Count:", i);
+    i++;
 }
-Exercise: Write a for loop to print numbers from 1 to 10. Then, create a while loop to
-do the same.
-JavaScript Functions
-0-10 mins: Introduction to Functions
-• Definition: A function is a reusable block of code that performs a specific task. It
+~~~
+
+**Exercise**: Write a for loop to print numbers from 1 to 10. Then, create a while loop to do the same.
+
+## JavaScript Functions
+### Introduction to Functions
+• **Definition**: A function is a reusable block of code that performs a specific task. It
 helps in organizing code and avoiding redundancy.
-• Basic Syntax:
+• **Basic Syntax**:
+~~~
 function functionName(parameters) {
 // code to be executed
 }
-Function Declarations
+~~~
+
+### Function Declarations
 Learn to declare and call functions.
-1. Function Declaration Example:
-o Basic example of a function that takes two numbers and returns their sum:
+
+#### 1. Function Declaration Example:
+~~~
+// Basic example of a function that takes two numbers and returns their sum:
 function add(a, b) {
 return a + b;
 }
 console.log(add(5, 3)); // Outputs: 8
-2. Calling Functions:
-o Functions are "called" or "invoked" by using their name followed by
-parentheses with any necessary arguments inside.
-3. Example - Function with Default Parameters:
-o Default parameters allow setting a default value if no argument is provided.
+~~~
+
+#### 2. Calling Functions:
+Functions are "called" or "invoked" by using their name followed by parentheses with any necessary arguments inside.
+
+**Example** - Function with Default Parameters:
+~~~
+//Default parameters allow setting a default value if no argument is provided.
 function greet(name = "Student") {
-console.log("Hello, " + name + "!");
+    console.log("Hello, " + name + "!");
 }
 greet(); // Outputs: Hello, Student!
 greet("Alice"); // Outputs: Hello, Alice!
+~~~
+
 Introduction to Arrow Functions
 Understand ES6 arrow functions and when to use them.
 1. Basic Syntax:

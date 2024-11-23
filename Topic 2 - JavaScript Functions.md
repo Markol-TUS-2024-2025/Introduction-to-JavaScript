@@ -2,6 +2,7 @@
 ## Introduction to Functions
 **Definition**: A function is a reusable block of code that performs a specific task. It
 helps in organizing code and avoiding redundancy.
+
 **Basic Syntax**:
 ~~~
 function functionName(parameters) {

@@ -9,7 +9,7 @@ JavaScript uses this model to build interactive websites by responding to user i
 
 ## Core Concepts in Event-Driven Programming 
 
-**What is an Event? **
+**What is an Event?**
 Events in JavaScript represent interactions or actions that happen on the webpage or DOM. Examples include: 
 
 **Mouse events**: click, mouseover, mousedown 
@@ -51,7 +51,7 @@ document.querySelector("p").innerHTML = "The button was clicked " + count + " ti
 
 ### Setting Up Basic Event Listeners 
 
-**Adding Event Listeners **
+**Adding Event Listeners**
 Let’s work through another basic example of adding event listeners: 
 ~~~
 <html> 
@@ -75,14 +75,14 @@ Let’s work through another basic example of adding event listeners:
 </html> 
 ~~~
  
-**Removing Event Listeners **
+**Removing Event Listeners**
 If you want to stop listening for events, use removeEventListener(): 
 ~~~
 button.removeEventListener("click", callbackFunction); 
 ~~~
  
 
-**Practical Task – Form Handling **
+**Practical Task – Form Handling**
 
 Create a simple form with a textarea and a save button. The user types in the textarea and clicks the save button. Upon clicking the save button the text they they have typed is displayed in a paragraph in the page. 
 
@@ -171,7 +171,7 @@ In event handlers, _this_ typically refers to the element that triggered the eve
 button.addEventListener("click", function() { 
   this.textContent = "Clicked!"; 
 }); 
-
+~~~
  
 ### Local Storage 
 ~~~
@@ -207,7 +207,7 @@ button.addEventListener("click", function() {
         localStorage.setItem("person", JSON.stringify(myObj));  
         document.querySelector("div").innerHTML = myName; 
 }); 
-
+~~~
  
 
 ## Putting It All Together - Hands-on Project  
@@ -218,7 +218,7 @@ Now that we’ve covered the basics, let’s build a small interactive project. 
 **Step 2**: Use JavaScript to handle click events for adding and removing tasks. Tasks should be added to an array or object and identified with a key or id. 
 **Step 3**: Add functionality to clear completed tasks. 
 
-**Advanced – Save to local storage **
+**Advanced – Save to local storage**
 
  
 

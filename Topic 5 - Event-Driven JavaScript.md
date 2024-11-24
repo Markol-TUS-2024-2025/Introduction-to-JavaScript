@@ -214,9 +214,9 @@ button.addEventListener("click", function() {
 
 Now that we’ve covered the basics, let’s build a small interactive project. We’ll create a to-do list that allows users to add and remove tasks dynamically using event listeners. 
 
-**Step 1**: Create an HTML structure for the to-do list. 
-**Step 2**: Use JavaScript to handle click events for adding and removing tasks. Tasks should be added to an array or object and identified with a key or id. 
-**Step 3**: Add functionality to clear completed tasks. 
+**Step 1**: Create an HTML structure for the to-do list.  
+**Step 2**: Use JavaScript to handle click events for adding and removing tasks. Tasks should be added to an array or object and identified with a key or id.   
+**Step 3**: Add functionality to clear completed tasks.   
 
 **Advanced – Save to local storage**
 

@@ -155,7 +155,7 @@ The event object is automatically passed to the event handler. It contains usefu
     **event.currentTarget**: The element to which the event listener is attached. 
 
 
-**Practical Task**
+**Practical Task**  
 Create a simple form with an input element with an id of "item" and a button.
 Write JavaScript code so that when the value in the text input changes a function is called. 
 In the function, accept a single parameter named "event". 

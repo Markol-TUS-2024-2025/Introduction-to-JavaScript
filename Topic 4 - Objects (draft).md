@@ -191,20 +191,20 @@ console.log(Object.keys(person));   // ['name', 'age', 'greet']
 <br><br>
 ## Practical Exercises  
 
-### Basic Object Creation and Manipulation 
+### (i) Basic Object Creation and Manipulation 
 Create an object book with properties title, author, and year.  
 Add a new property genre and update the year.   
 Delete the genre property.   
 
-### Object Methods and this Keyword 
+### (ii) Object Methods and this Keyword 
 Create a user object with properties username, email, and a method login that prints "username has logged in".    
 Test the method by calling it from the user object.     
 
-### Looping through Object Properties  
+### (iii) Looping through Object Properties  
 Create an object movie with properties like title, director, releaseYear, and rating.     
 Use for...in to log each key and value.   
 Print all values using Object.values().   
 
-### Destructuring and Merging 
+### (iv) Destructuring and Merging 
 Given two objects, address and contact, merge them into a new object profile.   
 Use destructuring to extract street from address and email from contact.   

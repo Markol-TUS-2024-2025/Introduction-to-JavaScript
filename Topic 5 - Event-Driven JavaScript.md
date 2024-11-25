@@ -26,7 +26,7 @@ element.addEventListener('event-type', function);
  
 
 **Adding a Click Event Listener**
-~~~
+```javascript
 <button id="myButton">Click Me!</button> 
 
 <script> 
@@ -35,25 +35,26 @@ element.addEventListener('event-type', function);
   alert("Button clicked!"); 
   }); 
 </script> 
-~~~
+```
 
 Add a paragraph tag in the HTML. 
 Outside the event listener in JavaScript add  
-~~~
+```javascript
 let count = 0; 
-~~~
+```
+
 Inside the event listener add 
-~~~
+```javascript
 count++; 
 document.querySelector("p").innerHTML = "The button was clicked " + count + " times;" 
-~~~ 
+```
 
 
 ### Setting Up Basic Event Listeners 
 
 **Adding Event Listeners**
 Let’s work through another basic example of adding event listeners: 
-~~~
+```javascript
 <html> 
 <head> 
   <title>Event Example</title> 
@@ -73,35 +74,34 @@ Let’s work through another basic example of adding event listeners:
   </script> 
 </body> 
 </html> 
-~~~
+```
  
 **Removing Event Listeners**
 If you want to stop listening for events, use removeEventListener(): 
-~~~
+
+```javascript
 button.removeEventListener("click", callbackFunction); 
-~~~
+``
  
 
-**Practical Task – Form Handling**
-
+**Practical Task – Form Handling**  
 Create a simple form with a textarea and a save button. The user types in the textarea and clicks the save button. Upon clicking the save button the text they they have typed is displayed in a paragraph in the page. 
 
-~~~
+```javascript
 let ta = document.querySelector("textarea"); 
 document.querySelector("p").innerHTML = ta.value;
-~~~
+```
 
 **Try two advanced amendments**
 _Update the paragraph text everytime the user presses/releases a key_
-~~~
+```javascript
 addEventListener('keyup', function () { } 
-~~~
+```
 
 _Update the paragraph text every time the textarea changes_
-~~~
+```javascript
 addEventListener('input', function {} 
-~~~
-
+```
 
 
 ### Event Propagation 
@@ -120,7 +120,7 @@ The process of handling an event on an ancestor element is called Event Delegati
 In event delegation, you attach the event listener to a parent element rather than individual child elements. This is useful for dynamically created elements. 
 
 Example: 
-~~~
+```javascript
 <ul id="todoList"> 
   <li>Task 1</li> 
   <li>Task 2</li> 
@@ -143,7 +143,7 @@ Example:
     todoList.appendChild(newItem); 
   }); 
 </script> 
-~~~
+```
  
 
 ### Event Object 
@@ -167,28 +167,28 @@ In the function code you will then be able to display information about the "ite
 ### Using **this** in Event Handlers 
 
 In event handlers, _this_ typically refers to the element that triggered the event. 
-~~~
+```javascript
 button.addEventListener("click", function() { 
   this.textContent = "Clicked!"; 
 }); 
-~~~
+```
  
 ### Local Storage 
-~~~
+```javascript
 localStorage.setItem('username', username); 
 const savedUsername = localStorage.getItem('username'); 
-~~~
+```
 
 If we are saving an object to localStorage we must save it as plain text. 
-~~~
+```javascript
 let myObj = {name: "Tom",  age: 25 } 
 localStorage.setItem(“person”, JSON.stringify(myObj)); 
 The when we get it we convert it back to an object 
 let personData = JSON.parse(localStorage.getItem(“person”)); 
-~~~
+```
 
 **Full localstorage example**
-~~~
+```javascript
 <textarea></textarea> 
 
 <button id="myButton">Save</button> 
@@ -207,7 +207,7 @@ button.addEventListener("click", function() {
         localStorage.setItem("person", JSON.stringify(myObj));  
         document.querySelector("div").innerHTML = myName; 
 }); 
-~~~
+```
  
 
 ## Putting It All Together - Hands-on Project  

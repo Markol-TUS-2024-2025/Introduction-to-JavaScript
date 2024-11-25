@@ -23,7 +23,7 @@ const items = [
 ];
 ```
 
-  
+<br><br.
 ### 2. Creating and Accessing Arrays
 Declaring arrays: 
 ```javascript

@@ -27,7 +27,7 @@ JavaScript has several data types:
 • _Object_: Complex structures for data
 
 **Example**:
-~~~
+```javascript
 let message = "Hello World"; // String
 let age = 30; // Number
 let isStudent = true; // Boolean
@@ -35,7 +35,7 @@ let empty = null; // Null
 let unknown; // Undefined
 let myArray = [7, "Hello", false];  //Array
 let myObject = {name: "Mark", course: "Web Dev"};
-~~~
+```
 
 **Exercise**: Create a variable of each type, log each to the console, and observe the results.
 
@@ -47,13 +47,13 @@ Operators help you perform actions on variables and values:
 • Logical Operators: && (and), || (or), ! (not)
 
 **Example**:
-~~~
+```javascript
 let a = 10;
 let b = 5;
 let sum = a + b; // 15
 console.log(sum);
 console.log(a > b); // true
-~~~
+```
 
 **Exercise**: Create a few variables and try different operators with them, then log the results.
 
@@ -61,19 +61,19 @@ console.log(a > b); // true
 if/else Statement: Executes code based on whether a condition is true or false.
 
 **Example**:
-~~~
+```javascript
 let temperature = 30;
 if (temperature > 25) {
     console.log("It's hot outside!");
 } else {
     console.log("It's cool outside!");
 }
-~~~
+```
 
 **Switch Statement**: Useful when there are multiple specific values to check.
 
 **Example**:
-~~~
+```javascript
 let fruit = "apple";
 switch (fruit) {
     case "apple":
@@ -85,7 +85,7 @@ break;
 default:
     console.log("Unknown fruit");
 }
-~~~
+```
 
 **Exercise**: Create a temperature variable and use if/else to log a message based on different temperature ranges. 
 Try a switch statement with different fruits.
@@ -94,22 +94,22 @@ Try a switch statement with different fruits.
 **for** Loop: Useful when you know how many times you need to repeat a task.
 
 **Example**:
-~~~
+```javascript
 for (let i = 1; i <= 5; i++) {
     console.log("Number:", i);
 }
-~~~
+```
 
 **while Loop**: Keeps looping as long as a condition is true. Use it when you’re unsure of the number of iterations.
 
 **Example**:
-~~~
+```javascript
 let i = 1;
 while (i <= 5) {
     console.log("Count:", i);
     i++;
 }
-~~~
+```
 
 **Exercise**: Write a for loop to print numbers from 1 to 10. Then, create a while loop to do the same.
 

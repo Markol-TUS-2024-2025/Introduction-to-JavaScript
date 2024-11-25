@@ -183,7 +183,7 @@ If we are saving an object to localStorage we must save it as plain text.
 ```javascript
 let myObj = {name: "Tom",  age: 25 } 
 localStorage.setItem("person", JSON.stringify(myObj)); 
-The when we get it we convert it back to an object 
+//Then when we get it we convert it back to an object 
 let personData = JSON.parse(localStorage.getItem(“person”)); 
 ```
 

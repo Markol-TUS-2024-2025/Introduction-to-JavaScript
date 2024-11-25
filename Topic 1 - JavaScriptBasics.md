@@ -14,6 +14,11 @@ Variables store data that we can use and manipulate in JavaScript. We'll focus o
 let age = 25; // Variable that can change
 const name = "Alice"; // Constant that will stay the same
 ~~~
+
+```javascript
+let age = 25; // Variable that can change
+const name = "Alice"; // Constant that will stay the same
+
 **Exercise**: Declare a variable called colour using let, set it to any colour, then log it to the console. Try changing colour and logging it again to see how it works with let.
 
 ### 2. Data Types

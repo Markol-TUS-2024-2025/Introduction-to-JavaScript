@@ -95,12 +95,12 @@ document.querySelector("p").innerHTML = ta.value;
 **Try two advanced amendments**
 _Update the paragraph text everytime the user presses/releases a key_
 ```javascript
-addEventListener('keyup', function () { } 
+document.addEventListener('keyup', function () { } 
 ```
 
 _Update the paragraph text every time the textarea changes_
 ```javascript
-addEventListener('input', function {} 
+document.addEventListener('input', function {} 
 ```
 
 

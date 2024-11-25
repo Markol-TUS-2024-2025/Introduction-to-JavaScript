@@ -26,7 +26,7 @@ element.addEventListener('event-type', function);
  
 
 **Adding a Click Event Listener**
-```javascript
+```html
 <button id="myButton">Click Me!</button> 
 
 <script> 
@@ -54,7 +54,7 @@ document.querySelector("p").innerHTML = "The button was clicked " + count + " ti
 
 **Adding Event Listeners**
 Let’s work through another basic example of adding event listeners: 
-```javascript
+```html
 <html> 
 <head> 
   <title>Event Example</title> 
@@ -76,12 +76,12 @@ Let’s work through another basic example of adding event listeners:
 </html> 
 ```
  
-**Removing Event Listeners**
+**Removing Event Listeners**  
 If you want to stop listening for events, use removeEventListener(): 
 
 ```javascript
 button.removeEventListener("click", callbackFunction); 
-``
+```
  
 
 **Practical Task – Form Handling**  
@@ -120,7 +120,7 @@ The process of handling an event on an ancestor element is called Event Delegati
 In event delegation, you attach the event listener to a parent element rather than individual child elements. This is useful for dynamically created elements. 
 
 Example: 
-```javascript
+```html
 <ul id="todoList"> 
   <li>Task 1</li> 
   <li>Task 2</li> 

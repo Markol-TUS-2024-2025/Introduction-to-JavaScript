@@ -23,7 +23,7 @@ const items = [
 ];
 ```
 
-<br><br.
+<br><br>
 ### 2. Creating and Accessing Arrays
 Declaring arrays: 
 ```javascript
@@ -45,8 +45,7 @@ Console.log the third fruit.
 Change the last fruit in the array to a new fruit name.
 Console.log all fruits
 
-
-  
+<br><br>
 ### 3. Basic Array Properties
 ```javascript
 .length
@@ -60,7 +59,7 @@ Array.isArray()
 **Quick Exercise**:  
 Use .length to find out how many items are in your fruit array.
 
-  
+<br><br>
 ### 4. Basic Looping Through Arrays
 _for_ loop to iterate over array elements.
 _forEach_ loop as an alternative.
@@ -81,7 +80,7 @@ console.log(item);
 **Quick Exercise**:  
 Loop through the array of fruits and print each fruit to the console.
 
-  
+<br><br>
 ### 5. Essential Array Methods
 **Adding and Removing Elements**  
 .push() and .pop() for adding/removing elements at the end.  
@@ -142,13 +141,13 @@ Use .map() to transform an array of numbers by squaring each number.
 Use .filter() to remove any fruits that contain the letter “a.”  
 Use .reduce() to calculate the total length of all fruit names combined.  
 
-
+<br><br>
 ## Practical Tasks & Mini-Project
 **Interactive Coding Task**  
 **Task 1**: Create an array of numbers and find the sum of all numbers using .reduce().  
 **Task 2**: Use .filter() to create a new array with only even numbers from the original array.  
 **Task 3**: Use .map() to create an array of all fruits in uppercase from the fruit array.  
-
+<br><br>
 **Practical: Inventory System**  
 **Scenario**: You’re building a simple inventory system for a store. You need to:  
 **Step 1**: Create an array of objects, each object representing an item with properties: name, price, and quantity.  

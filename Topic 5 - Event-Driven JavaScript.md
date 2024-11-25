@@ -159,7 +159,7 @@ The event object is automatically passed to the event handler. It contains usefu
 Create a simple form with an input element with an id of "item" and a button.
 Write JavaScript code so that when the value in the text input changes a function is called. 
 In the function, accept a single parameter named "event". 
-In the function code you will then be able to display information about the "item" by using event.target.vale etc.
+In the function code you will then be able to display information about the "item" by using event.target.value etc.
 
 
 
@@ -182,7 +182,7 @@ const savedUsername = localStorage.getItem('username');
 If we are saving an object to localStorage we must save it as plain text. 
 ```javascript
 let myObj = {name: "Tom",  age: 25 } 
-localStorage.setItem(“person”, JSON.stringify(myObj)); 
+localStorage.setItem("person", JSON.stringify(myObj)); 
 The when we get it we convert it back to an object 
 let personData = JSON.parse(localStorage.getItem(“person”)); 
 ```

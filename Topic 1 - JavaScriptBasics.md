@@ -10,6 +10,7 @@ Variables store data that we can use and manipulate in JavaScript. We'll focus o
 
 **Code Example**:
 ~~~
+```javascript
 let age = 25; // Variable that can change
 const name = "Alice"; // Constant that will stay the same
 ~~~

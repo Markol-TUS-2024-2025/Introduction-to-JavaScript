@@ -2,13 +2,13 @@
 
 ## 1. Introduction to JavaScript Objects  
 
-**What is an Object? **  
+**What is an Object?**  
 An object in JavaScript is a collection of key-value pairs that can store data and functions, used to model real-world data and organize related information. 
 ```javascript
 { name: 'Alice', age: 25 } 
 ```
  
-**Importance of Objects **  
+**Importance of Objects**  
 JavaScript objects are essential because they allow developers to organize and structure data logically, mirroring real-world entities. Objects store related information in key-value pairs, making it easy to access, manipulate, and manage complex data sets. 
       
 Objects facilitate interaction with APIs and the Document Object Model (DOM), which are central to dynamic web applications. 
@@ -18,7 +18,7 @@ JSON (JavaScript Object Notation) is a lightweight data format inspired by JavaS
 
 <br><br>
 ## 2. Creating and Accessing Objects  
-**Object Creation **  
+**Object Creation**  
 ```javascript
 //Object literal syntax: 
 const person = { name: 'Alice', age: 25 }; 
@@ -56,7 +56,7 @@ console.log(car['model']);   // Bracket notation
 
 Using dot and bracket notation as seen in previous examples 
 
-**Deleting Properties **  
+**Deleting Properties**  
 ```javascript
 car.color = 'blue';          // Adding a new property 
 car.owner.age = 31;          // Updating a nested property 
@@ -95,7 +95,7 @@ console.log(student.courses.math.teacher); // "Ms. Smith"
   
 <br><br>
 ## 4. Object Methods  
-**The this Keyword **  
+**The this Keyword**  
 Refers to the object in which the method is defined 
 
 ```javascript    

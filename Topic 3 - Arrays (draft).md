@@ -23,7 +23,7 @@ const items = [
 ];
 ```
 
-¬
+  
 ### 2. Creating and Accessing Arrays
 Declaring arrays: 
 ```javascript
@@ -46,7 +46,7 @@ Change the last fruit in the array to a new fruit name.
 Console.log all fruits
 
 
-¬¬
+  
 ### 3. Basic Array Properties
 ```javascript
 .length
@@ -60,7 +60,7 @@ Array.isArray()
 **Quick Exercise**:  
 Use .length to find out how many items are in your fruit array.
 
-¬¬
+  
 ### 4. Basic Looping Through Arrays
 _for_ loop to iterate over array elements.
 _forEach_ loop as an alternative.
@@ -81,7 +81,7 @@ console.log(item);
 **Quick Exercise**:  
 Loop through the array of fruits and print each fruit to the console.
 
-¬¬
+  
 ### 5. Essential Array Methods
 **Adding and Removing Elements**  
 .push() and .pop() for adding/removing elements at the end.  

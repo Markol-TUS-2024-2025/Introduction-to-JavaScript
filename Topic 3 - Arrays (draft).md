@@ -23,6 +23,7 @@ const items = [
 ];
 ```
 
+
 ### 2. Creating and Accessing Arrays
 Declaring arrays: 
 ```javascript
@@ -45,6 +46,7 @@ Change the last fruit in the array to a new fruit name.
 Console.log all fruits
 
 
+
 ### 3. Basic Array Properties
 ```javascript
 .length
@@ -57,6 +59,7 @@ Array.isArray()
 
 **Quick Exercise**:  
 Use .length to find out how many items are in your fruit array.
+
 
 ### 4. Basic Looping Through Arrays
 _for_ loop to iterate over array elements.
@@ -78,14 +81,15 @@ console.log(item);
 **Quick Exercise**:  
 Loop through the array of fruits and print each fruit to the console.
 
+
 ### 5. Essential Array Methods
 **Adding and Removing Elements**  
-o .push() and .pop() for adding/removing elements at the end.
-o .unshift() and .shift() for adding/removing elements at the beginning.
+.push() and .pop() for adding/removing elements at the end.  
+.unshift() and .shift() for adding/removing elements at the beginning.  
 
 **Practice Task**:
-o Start with an empty array, add three items with .push(), then remove the last item with .pop().
-o Add two items to the beginning with .unshift(), then remove one from the start with .shift().
+Start with an empty array, add three items with .push(), then remove the last item with .pop().   
+Add two items to the beginning with .unshift(), then remove one from the start with .shift().  
 
 **Finding and Checking Elements**  
 .includes() to check if an element exists.
@@ -134,22 +138,22 @@ const totalPrice = items .reduce((runningTotal ,item) => {
 ```
 
 **Practice Task**:
-o Use .map() to transform an array of numbers by squaring each number.
-o Use .filter() to remove any fruits that contain the letter “a.”
-o Use .reduce() to calculate the total length of all fruit names combined.
+Use .map() to transform an array of numbers by squaring each number.  
+Use .filter() to remove any fruits that contain the letter “a.”  
+Use .reduce() to calculate the total length of all fruit names combined.  
 
 
 ## Practical Tasks & Mini-Project
 **Interactive Coding Task**  
-o Task 1: Create an array of numbers and find the sum of all numbers using .reduce().
-o Task 2: Use .filter() to create a new array with only even numbers from the original array.
-o Task 3: Use .map() to create an array of all fruits in uppercase from the fruit array.
+**Task 1**: Create an array of numbers and find the sum of all numbers using .reduce().  
+**Task 2**: Use .filter() to create a new array with only even numbers from the original array.  
+**Task 3**: Use .map() to create an array of all fruits in uppercase from the fruit array.  
 
 **Practical: Inventory System**  
-o Scenario: You’re building a simple inventory system for a store. You need to:
-**Step 1**: Create an array of objects, each object representing an item with properties: name, price, and quantity.
-**Step 2**: Write a function to add a new item to the inventory array.
-**Step 3**: Write a function to update the quantity of an item by name.
-**Step 4**: Calculate the total value of all items in the inventory (price * quantity).
+**Scenario**: You’re building a simple inventory system for a store. You need to:  
+**Step 1**: Create an array of objects, each object representing an item with properties: name, price, and quantity.  
+**Step 2**: Write a function to add a new item to the inventory array.  
+**Step 3**: Write a function to update the quantity of an item by name.  
+**Step 4**: Calculate the total value of all items in the inventory (price * quantity).  
 
 **Bonus Challenge**: Filter items with quantities less than a specific number to identify low-stock items.

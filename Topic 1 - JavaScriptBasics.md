@@ -17,24 +17,24 @@ const name = "Alice"; // Constant that will stay the same
 **Exercise**: Declare a variable called colour using let, set it to any colour, then log it to the console. Try changing colour and logging it again to see how it works with let.
 
 ### 2. Data Types
-JavaScript has several data types:
-• _String_: Text, e.g., "hello"
-• _Number_: Numerical values, e.g., 42
-• _Boolean_: true or false
-• _Null_: Intentional empty value
-• _Undefined_: Variable that has been declared but not assigned
-• _Array_: A collection of variables
-• _Object_: Complex structures for data
+JavaScript has several data types:  
+• _String_: Text, e.g., "hello"  
+• _Number_: Numerical values, e.g., 42  
+• _Boolean_: true or false  
+• _Null_: Intentional empty value  
+• _Undefined_: Variable that has been declared but not assigned   
+• _Array_: A collection of variables  
+• _Object_: Complex structures for data  
 
 **Example**:
 ```javascript
-let message = "Hello World"; // String
-let age = 30; // Number
-let isStudent = true; // Boolean
-let empty = null; // Null
-let unknown; // Undefined
-let myArray = [7, "Hello", false];  //Array
-let myObject = {name: "Mark", course: "Web Dev"};
+let message = "Hello World"; // String  
+let age = 30; // Number  
+let isStudent = true; // Boolean  
+let empty = null; // Null  
+let unknown; // Undefined  
+let myArray = [7, "Hello", false];  //Array  
+let myObject = {name: "Mark", course: "Web Dev"};  
 ```
 
 **Exercise**: Create a variable of each type, log each to the console, and observe the results.
@@ -58,7 +58,7 @@ console.log(a > b); // true
 **Exercise**: Create a few variables and try different operators with them, then log the results.
 
 ### 4. Conditionals and Loops
-if/else Statement: Executes code based on whether a condition is true or false.
+**if/else Statement**: Executes code based on whether a condition is true or false.
 
 **Example**:
 ```javascript
@@ -68,6 +68,12 @@ if (temperature > 25) {
 } else {
     console.log("It's cool outside!");
 }
+```
+
+Terenary Operator: Shorter version of if/else  
+```javascript
+let temperature = 30;
+temerature > 25 ? console.log("It's hot outside!") : console.log("It's cold outside!");
 ```
 
 **Switch Statement**: Useful when there are multiple specific values to check.

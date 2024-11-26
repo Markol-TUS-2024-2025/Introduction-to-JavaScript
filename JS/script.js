@@ -1,6 +1,9 @@
 //If there are tasks saved to local Storage then we will get them and display then
 let myTasks = localStorage.getItem("allTasks") ? 
 JSON.parse(localStorage.getItem("allTasks")) : {}; 
+//Note - a more concise version of this is...
+// let myTasks = JSON.parse(localStorage.getItem("allTasks")) || {};
+
 //UPDATED - instead of using count we will use a uniqueid
 let uniqid = "id" + Math.random().toString(16).slice(2);
 
